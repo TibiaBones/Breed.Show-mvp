@@ -1,0 +1,30 @@
+body{
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1280px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.header-background {
+    height: 80px;
+    background-color: #FCFCFC;
+}
+
+.panel-background {
+    height: 350px;  
+    background: linear-gradient(45deg, #50DDC3, #624AF2)
+}
+
+.accountHeader-background {
+    height: 205px;
+    background-color: #FCFCFC;
+}
+
+.accountContent-background {
+    
+    height: 1660px;
+    background-color: #F7F7FC;
+}
