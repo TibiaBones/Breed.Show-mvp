@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -76,6 +80,15 @@
                 d="M17.9371 18.8799C17.034 19.582 15.8992 20 14.6667 20C11.7212 20 9.33334 17.6122 9.33334 14.6667C9.33334 11.7212 11.7212 9.33334 14.6667 9.33334C17.6122 9.33334 20 11.7212 20 14.6667C20 15.8992 19.582 17.034 18.8799 17.9371L22.4714 21.5286C22.7318 21.789 22.7318 22.2111 22.4714 22.4714C22.2111 22.7318 21.789 22.7318 21.5286 22.4714L17.9371 18.8799ZM18.6667 14.6667C18.6667 16.8758 16.8758 18.6667 14.6667 18.6667C12.4575 18.6667 10.6667 16.8758 10.6667 14.6667C10.6667 12.4575 12.4575 10.6667 14.6667 10.6667C16.8758 10.6667 18.6667 12.4575 18.6667 14.6667Z"
                 fill="#FCFCFD" />
         </symbol>
+
+        <symbol id="shopIco" viewBox="0 0 25 24">
+            <path
+                d="M6.29999 13C7.43465 13 8.35596 12.6213 9.05763 12.1572C9.20433 12.0602 9.39564 12.0602 9.54234 12.1572C10.244 12.6213 11.1653 13 12.3 13C13.4346 13 14.356 12.6213 15.0576 12.1572C15.2043 12.0602 15.3956 12.0602 15.5423 12.1572C16.244 12.6213 17.1653 13 18.3 13C18.7414 13 19.1874 12.9626 19.6234 12.8744C19.96 12.8062 20.3 13.0492 20.3 13.3927V18C20.3 19.6569 18.9568 21 17.3 21H15.3C14.7477 21 14.3 20.5523 14.3 20V17C14.3 15.8954 13.4046 15 12.3 15C11.1954 15 10.3 15.8954 10.3 17V20C10.3 20.5523 9.85227 21 9.29999 21H7.29999C5.64313 21 4.29999 19.6569 4.29999 18V13.3927C4.29999 13.0492 4.63994 12.8062 4.97661 12.8744C5.41255 12.9626 5.85856 13 6.29999 13Z"
+                fill="#222831" />
+            <path
+                d="M5.20013 4.23781C5.86879 3.4142 6.89598 3 7.95684 3H16.6431C17.704 3 18.7312 3.4142 19.3998 4.23781C20.2561 5.29247 21.3 6.82022 21.3 8C21.3 10 20.3 11 18.3 11C16.825 11 15.8939 9.9122 15.5067 9.34109C15.4142 9.20468 15.1857 9.20468 15.0933 9.34109C14.7061 9.9122 13.775 11 12.3 11C10.825 11 9.8939 9.9122 9.50671 9.34109C9.41423 9.20468 9.18575 9.20468 9.09326 9.34109C8.70607 9.9122 7.77498 11 6.29999 11C4.29999 11 3.29999 10 3.29999 8C3.29999 6.82022 4.3439 5.29247 5.20013 4.23781Z"
+                fill="#222831" />
+        </symbol>
     </svg>
 
     <section class="header-background">
@@ -93,11 +106,9 @@
             </svg>
         </div>
 
-
-
-        <!-- исправить бордер -->
         <div class="header-searchFieldContainer">
-            <input class="header-searchField">
+            <input class="header-searchField" placeholder="Что будем искать?">
+
             <svg class="searchButton_img">
                 <use href="#searchButton" />
             </svg>
@@ -106,6 +117,7 @@
 
         <div class="header-flexBox">
             <span class="account_name">Евгений Федоров</span>
+
             <svg class="account_img">
                 <use href="#account" />
             </svg>
@@ -113,16 +125,163 @@
 
     </section>
 
-    <section class="panel-background">
-
-    </section>
+    <section class="panel-background"></section>
 
     <section class="accountHeader-background">
+        <div class="accountHeader-title">
+            <svg class="accountHeader-account_img">
+                <use href="#account" />
+            </svg>
 
+            <span class="accountHeader-accountName">Евгений Федоров</span>
+
+            <div class="accountHeader-cattery_flexContainer">
+                <svg class="shopIco-big_img">
+                    <use href="#shopIco" />
+                </svg>
+
+                <span class="accountHeader-catteryName">Golden StapWay</span>
+            </div>
+        </div>
+
+        <div class="accountHeader-delimiter"></div>
+
+        <div class="accountHeader-mainMenu">
+            <div class="accountHeader-mainMenu_flexContainer">
+                <svg class="shopIco-small_img">
+                    <use href="#shopIco" />
+                </svg>
+
+                <span class="accountHeader-mainMenu_text">Мой магазин</span>
+            </div>
+
+            <div class="accountHeader-mainMenu_flexContainer">
+                <svg class="shopIco-small_img">
+                    <use href="#shopIco" />
+                </svg>
+
+                <span class="accountHeader-mainMenu_text">Мой магазин</span>
+            </div>
+
+            <div class="accountHeader-mainMenu_flexContainer">
+                <svg class="shopIco-small_img">
+                    <use href="#shopIco" />
+                </svg>
+
+                <span class="accountHeader-mainMenu_text">Мой магазин</span>
+            </div>
+
+            <div class="accountHeader-mainMenu_flexContainer">
+                <svg class="shopIco-small_img">
+                    <use href="#shopIco" />
+                </svg>
+
+                <span class="accountHeader-mainMenu_text">Мой магазин</span>
+            </div>
+
+            <div class="accountHeader-mainMenu_flexContainer">
+                <svg class="shopIco-small_img">
+                    <use href="#shopIco" />
+                </svg>
+
+                <span class="accountHeader-mainMenu_text">Мой магазин</span>
+            </div>
+
+            <div class="accountHeader-buttonMenu_circle">
+
+            </div>
+        </div>
     </section>
 
     <section class="accountContent-background">
+        <div class="accountContent-info">
+            <span class="accountContent-title">Краткая информация</span>
+            <div class="accountContent-info_table">
+                <p class="accountContent-secTitle">Сайт breed.show предназначен специально для заводчиков, та?</p>
 
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Представитель:</p>
+                    <p class="accountContent-info_textRight">Евгений Федоров</p>
+                </div>
+
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Породы:</p>
+                    <p class="accountContent-info_textRight">Ши-тцу</p>
+                </div>
+
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Питомник:</p>
+                    <p class="accountContent-info_textRight">Golden StapWay</p>
+                </div>
+
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Страна:</p>
+                    <p class="accountContent-info_textRight">Беларусь</p>
+                </div>
+
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Город:</p>
+                    <p class="accountContent-info_textRight">Минск</p>
+                </div>
+
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Статус:</p>
+                    <p class="accountContent-info_textRight">Заводчик</p>
+                </div>
+
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Работа:</p>
+                    <p class="accountContent-info_textRight">Программист</p>
+                </div>
+
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Дата рождения:</p>
+                    <p class="accountContent-info_textRight">19 декабря 2000 г.</p>
+                </div>
+                <div class="accountContent-info_delimiter"></div>
+
+                <div class="accountContent-info_textContainer">
+                    <p class="accountContent-info_textLeft">Телефон:</p>
+                    <p class="accountContent-info_textRight">+375291189233</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accountContent-pawsgramm">
+            <div class="accountContent-pawsgramm_flexContainer">
+                <span class="accountContent-pawsgramm_title">Павсграм</span>
+                <span class="accountContent-pawsgramm_allPhotos">Все фото</span>
+            </div>
+
+            <div class="accountContent-pawsgramm_photos">
+                <img class="pawsgramm-img" src="images/Rectangle 10.png">
+                <img class="pawsgramm-img" src="images/Rectangle 11.png">
+                <img class="pawsgramm-img" src="images/Rectangle 12.png">
+                <img class="pawsgramm-img" src="images/Rectangle 13.png">
+                <img class="pawsgramm-img" src="images/Rectangle 14.png">
+                <img class="pawsgramm-img" src="images/Rectangle 15.png">
+                <img class="pawsgramm-img" src="images/Rectangle 16.png">
+                <img class="pawsgramm-img" src="images/Rectangle 17.png">
+                <img class="pawsgramm-img" src="images/Rectangle 18.png">
+            </div>
+        </div>
     </section>
 </body>
 

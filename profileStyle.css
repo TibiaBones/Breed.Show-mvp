@@ -22,14 +22,25 @@ body {
     align-items: center;
 }
 
-/* .header-searchFieldContainer{
-    border: 2px;
-    border-color: #E6E8EC;
-    исправить бордер 
-} */
+.header-searchFieldContainer {
+    height: 50px;
+    width: 550px;
+    border: 2px solid #E6E8EC;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.header-searchField{
+.header-searchField {
+    height: 20px;
+    width: 480px;
     border: none;
+    outline: none;
+    margin-left: 15px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .account_name {
@@ -58,6 +69,7 @@ body {
 .searchButton_img {
     width: 32px;
     height: 32px;
+    margin-right: 10px;
 }
 
 .account_img {
@@ -66,18 +78,220 @@ body {
     margin: 0 30px 0 10px;
 }
 
+
+
 .panel-background {
     height: 350px;
     background: linear-gradient(45deg, #50DDC3, #624AF2)
 }
 
 .accountHeader-background {
-    height: 205px;
+    /* height: 205px; */
     background-color: #FCFCFC;
 }
 
-.accountContent-background {
+.accountHeader-title {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0;
+}
 
+.accountHeader-account_img {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: -120px;
+    left: 30px;
+}
+
+
+
+.accountHeader-accountName {
+    margin: 0 50px 0 340px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #222831;
+}
+
+.accountHeader-cattery_flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopIco-big_img {
+    width: 40px;
+    height: 40px;
+}
+
+.accountHeader-catteryName {
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #222831;
+}
+
+.accountHeader-delimiter {
+    height: 2px;
+    width: 1220px;
+    background-color: #E3E5F2;
+    margin: 0 auto;
+}
+
+.accountHeader-mainMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0 155px;
+}
+
+.accountHeader-mainMenu_flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopIco-small_img {
+    height: 24px;
+    width: 24px;
+}
+
+.accountHeader-mainMenu_text {
+    font-size: 16px;
+    color: #363C38;
+    margin-left: 15px;
+}
+
+.accountHeader-buttonMenu_circle {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #EFF0F6;
+}
+
+.accountContent-background {
+    padding-top: 20px;
     height: 1660px;
     background-color: #F7F7FC;
+}
+
+.accountContent-info {
+    width: 497px;
+    border-radius: 16px;
+    background-color: #FCFCFC;
+    margin-left: 30px;
+    padding: 15px 20px 20px 20px;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.accountContent-title {
+    Font-family: 'Montserrat', sans-serif;
+    ;
+    Font-size: 30px;
+    font-weight: 600;
+    color: #222831;
+}
+
+.accountContent-info_table {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accountContent-secTitle {
+    /* display: block; */
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 30px;
+    color: #222831;
+}
+
+.accountContent-info_delimiter {
+    height: 2px;
+    width: 100%;
+    background-color: #E3E5F2;
+    margin: 15px 0;
+
+}
+
+.accountContent-info_textContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.accountContent-info_textLeft {
+    max-width: 215px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 10px;
+    /* flex-grow: 3; */
+    color: #222831;
+}
+
+.accountContent-info_textRight {
+    max-width: 215px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 10px;
+    /* flex-grow: 3; */
+    color: #222831;
+}
+
+.accountContent-pawsgramm {
+    width: 497px;
+    border-radius: 16px;
+    background-color: #FCFCFC;
+    margin: 20px 0 0 30px;
+    padding: 15px 20px 20px 20px;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accountContent-pawsgramm_flexContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accountContent-pawsgramm_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #222831;
+}
+
+.accountContent-pawsgramm_allPhotos {
+    font-weight: 400;
+    font-size: 24px;
+    color: #363C38;
+}
+
+.accountContent-pawsgramm_photos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pawsgramm-img{
+    height: 145px;
+    width: 145px;
+    object-fit: cover;
 }
