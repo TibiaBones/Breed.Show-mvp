@@ -14,7 +14,7 @@ body {
     left: 0;
     z-index: 10;
     width: 100%;
-    
+
     background-color: #FCFCFC;
 
 }
@@ -146,10 +146,17 @@ body {
     color: #222831;
 }
 
-.accountHeader-delimiter {
+.delimiter {
     height: 2px;
-    width: 1220px;
     background-color: #E3E5F2;
+}
+
+.header-delimiter_width{
+    width: 100%;
+}
+
+.accountHeader-delimiter {
+    width: 1220px;
     margin: 0 auto;
 }
 
