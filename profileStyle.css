@@ -134,9 +134,9 @@ body {
     align-items: center;
 }
 
-.shopIco-big_img {
-    width: 40px;
-    height: 40px;
+.nursery-big_img {
+    width: 30px;
+    height: 37px;
 }
 
 .accountHeader-catteryName {
@@ -151,7 +151,7 @@ body {
     background-color: #E3E5F2;
 }
 
-.header-delimiter_width{
+.header-delimiter_width {
     width: 100%;
 }
 
@@ -179,14 +179,14 @@ body {
     align-items: center;
 }
 
-.shopIco-small_img {
+.shopIco_img {
     height: 24px;
     width: 24px;
 }
 
-.offspring_img {
-    height: 24px;
-    width: 25px;
+.nursery_img {
+    height: 18px;
+    width: 22px;
 }
 
 .megaphone_img {
