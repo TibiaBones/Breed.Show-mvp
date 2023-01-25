@@ -36,17 +36,20 @@ body {
     height: 30px;
     width: 30px;
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .login-logoBSh_img {
     height: 33px;
     width: 33px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .login-wordmarkWhite_img {
     width: 92px;
     height: 12px;
+    cursor: pointer;
 }
 
 .login-topContainer_text {
