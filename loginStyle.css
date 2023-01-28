@@ -1,4 +1,4 @@
-.login-post {
+/* .login-post {
     height: 50px;
     width: 395px;
     background-color: #FFFFFF;
@@ -30,7 +30,7 @@
     line-height: 50px;
     color: #A0A3BD;
     padding: 0 15px;
-}
+} */
 
 .login_checkboxForgottenPassword {
     display: flex;

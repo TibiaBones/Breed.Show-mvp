@@ -1,5 +1,9 @@
 body {
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #EFEFEF;
 }
 
 .loginRegistration-background {
@@ -49,9 +53,9 @@ body {
 }
 
 .loginRegistration-topContainer_text {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-weight: 700;
-    font-size: 16px;
+    /* font-size: 16px; */
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -77,7 +81,24 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     text-align: center;
     margin: 30px 0 40px;
+}
+
+.loginRegistration-input {
+    height: 50px;
+    width: 395px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 700;
+    /* font-size: 16px; */
+    line-height: 50px;
+    color: #A0A3BD;
+    padding: 0 15px;
 }
