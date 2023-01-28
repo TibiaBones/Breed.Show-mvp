@@ -31,18 +31,44 @@ ul {
     box-sizing: border-box;
 }
 
-.zatychka {
-    width: 165px;
-    height: 25px;
-    background-color: blueviolet;
+.registration-statusСhoice {
+    max-width: 165px;
+    width: 100%;  
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.zatychka2 {
-    width: 230px;
-    height: 25px;
-    background-color: blueviolet;
+.registration-statusСhoice_flexContainer{
+    display: flex;
+    align-items: center;
+}
+
+.registration-radio_img{
+    width: 21px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.registration-statusСhoice_text{
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.registration-radioChecked_img{
+    width: 25px;
+    height: 24px;
+    cursor: pointer; 
+}
+
+.registration-petСhoice {
+    max-width: 230px;
+    width: 100%; 
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
 }
 
