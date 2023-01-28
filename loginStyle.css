@@ -45,13 +45,6 @@
     align-items: center;
 }
 
-.login-checkbox {
-    background-color: #FFFFFF;
-    margin: 0;
-    height: 18px;
-    width: 18px;
-}
-
 .login-labelCheckbox {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -65,24 +58,6 @@
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
-}
-
-.login-enter {
-    height: 50px;
-    width: 395px;
-    background-color: #FCFCFD;
-    color: #23262F;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 50px;
-    text-transform: uppercase;
-    border-radius: 90px;
-    text-align: center;
-    margin-bottom: 40px;
-    padding: 0;
-    border: none;
-    cursor: pointer;
 }
 
 .login-massangersLabel {

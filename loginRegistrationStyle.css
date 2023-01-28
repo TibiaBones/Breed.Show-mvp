@@ -66,6 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    /* margin-top: 15%; */
 }
 
 .loginRegistration-secContainer {
@@ -101,4 +102,29 @@ body {
     line-height: 50px;
     color: #A0A3BD;
     padding: 0 15px;
+}
+
+.loginRegistration-checkbox {
+    background-color: #FFFFFF;
+    margin: 0;
+    height: 18px;
+    width: 18px;
+}
+
+.loginRegistration-button {
+    height: 50px;
+    width: 395px;
+    background-color: #FCFCFD;
+    color: #23262F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-radius: 90px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
 }

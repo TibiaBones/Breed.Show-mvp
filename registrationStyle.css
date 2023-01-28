@@ -8,8 +8,20 @@
     text-align: center;
 }
 
-.marginBottom0{
+.height100 {
+    height: 100%;
+}
+
+.marginBottom0 {
     margin-bottom: 0;
+}
+
+.marginBottom30 {
+    margin-bottom: 30px;
+}
+
+.marginTop15 {
+    margin-top: 15%;
 }
 
 ul {
@@ -19,21 +31,57 @@ ul {
     box-sizing: border-box;
 }
 
-.zatychka{
+.zatychka {
     width: 165px;
     height: 25px;
     background-color: blueviolet;
     text-align: center;
 }
 
-.registration-wayf_flexContainer{
+.zatychka2 {
+    width: 230px;
+    height: 25px;
+    background-color: blueviolet;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.registration-wayf_flexContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.registration-shape_img{
+.registration-shape_img {
     width: 21px;
     height: 20px;
     margin-left: 10px;
+}
+
+.registration-account_img {
+    width: 230px;
+    height: 230px;
+}
+
+.registration-selectPhoto {
+    text-decoration-line: underline;
+
+}
+
+.registration-terms{
+    margin: 0 45px 30px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.registration-checkbox{
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.registration-paragraph {
+    font-size: 20px;
+    margin: 0 0 0 10px;
 }
