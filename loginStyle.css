@@ -82,20 +82,3 @@
     height: 64px;
     cursor: pointer;
 }
-
-.login-registrationContainer {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #222831;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 10px;
-}
-
-.login-lankRegistration {
-    margin-left: 10px;
-}

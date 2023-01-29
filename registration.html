@@ -84,10 +84,8 @@
                 fill="#A0A3BD" />
         </symbol>
 
-        <symbol id="radio" viewBox="0 0 21 20">
-            <path
-                d="M10.5 0C4.98 0 0.5 4.48 0.5 10C0.5 15.52 4.98 20 10.5 20C16.02 20 20.5 15.52 20.5 10C20.5 4.48 16.02 0 10.5 0ZM10.5 18C6.08 18 2.5 14.42 2.5 10C2.5 5.58 6.08 2 10.5 2C14.92 2 18.5 5.58 18.5 10C18.5 14.42 14.92 18 10.5 18Z"
-                fill="white" />
+        <symbol id="radio" viewBox="0 0 25 24">
+            <path d="M12.5 2C6.98 2 2.5 6.48 2.5 12C2.5 17.52 6.98 22 12.5 22C18.02 22 22.5 17.52 22.5 12C22.5 6.48 18.02 2 12.5 2ZM12.5 20C8.08 20 4.5 16.42 4.5 12C4.5 7.58 8.08 4 12.5 4C16.92 4 20.5 7.58 20.5 12C20.5 16.42 16.92 20 12.5 20Z" fill="white"/>
         </symbol>
 
         <symbol id="radioChecked" viewBox="0 0 25 24">
@@ -146,84 +144,100 @@
                 <p class="registration-label">Вы заводчик?</p>
 
                 <div class="registration-statusСhoice">
-                    <div class="registration-statusСhoice_flexContainer">
-                        <svg class="registration-radioChecked_img">
+                    <div class="registration-statusСhoice_flexContainer" onclick="breederStatus()">
+                        <svg class="registration-radio_img" id="buttonOn1">
                             <use href="#radioChecked" />
+                        </svg>
+
+                        <svg class="registration-radio_img" id="buttonOff1">
+                            <use href="#radio" />
                         </svg>
 
                         <span class="registration-statusСhoice_text">Да</span>
                     </div>
 
-                    <div class="registration-statusСhoice_flexContainer">
-                        <svg class="registration-radio_img">
+                    <div class="registration-statusСhoice_flexContainer" onclick="userStatus()">
+                        <svg class="registration-radio_img" id="buttonOff2">
                             <use href="#radio" />
+                        </svg>
+
+                        <svg class="registration-radio_img" id="buttonOn2">
+                            <use href="#radioChecked" />
                         </svg>
 
                         <span class="registration-statusСhoice_text">Нет</span>
                     </div>
                 </div>
 
-                <div class="registration-wayf_flexContainer">
-                    <p class="registration-label">Откуда вы?</p>
+                <div class="registration-breederFlexContainer" id="breederContainer">
+                    <div class="registration-wayf_flexContainer">
+                        <p class="registration-label">Откуда вы?</p>
 
-                    <svg class="registration-shape_img">
-                        <use href="#shape" />
+                        <svg class="registration-shape_img">
+                            <use href="#shape" />
+                        </svg>
+                    </div>
+
+                    <input class="loginRegistration-input" placeholder="Страна">
+
+                    <input class="loginRegistration-input marginBottom0" placeholder="Город">
+
+                    <p class="registration-label">Укажите данные питомника</p>
+
+                    <!-- затычка -->
+                    <div class="registration-petСhoice">
+                        <div class="registration-statusСhoice_flexContainer">
+                            <svg class="registration-radio_img">
+                                <use href="#radioChecked" />
+                            </svg>
+
+                            <span class="registration-statusСhoice_text">Собаки</span>
+                        </div>
+
+                        <div class="registration-statusСhoice_flexContainer">
+                            <svg class="registration-radio_img">
+                                <use href="#radio" />
+                            </svg>
+
+                            <span class="registration-statusСhoice_text">Кошки</span>
+                        </div>
+                    </div>
+
+                    <input class="loginRegistration-input" placeholder="Немецкая овчарка">
+
+                    <input class="loginRegistration-input" placeholder="Название питомника">
+                </div>
+
+
+                    <p class="registration-label">Загрузите фото профиля</p>
+
+                    <svg class="registration-account_img">
+                        <use href="#account" />
                     </svg>
-                </div>
 
-                <input class="loginRegistration-input" placeholder="Страна">
+                    <a class="registration-label registration-selectPhoto" href="#">Выбрать</a>
 
-                <input class="loginRegistration-input marginBottom0" placeholder="Город">
+                    <button class="loginRegistration-button marginBottom30">Зарегистрироваться</button>
 
-                <p class="registration-label">Укажите данные питомника</p>
+                    <div class="registration-terms">
+                        <input id="loginRegistration-checkbox registration-checkbox" type="checkbox"
+                            class="login-checkbox">
 
-                <!-- затычка -->
-                <div class="registration-petСhoice">
-                    <div class="registration-statusСhoice_flexContainer">
-                        <svg class="registration-radioChecked_img">
-                            <use href="#radioChecked" />
-                        </svg>
-
-                        <span class="registration-statusСhoice_text">Собаки</span>
+                        <p class="registration-paragraph">
+                            Нажимая кнопку «Зарегистрироваться», вы создаете учетную запись BREED SHOW и, следовательно,
+                            соглашаетесь с Условиями использования и Политикой конфиденциальности, а также даете свое
+                            согласие на обработку Персональных данных
+                        </p>
                     </div>
 
-                    <div class="registration-statusСhoice_flexContainer">
-                        <svg class="registration-radio_img">
-                            <use href="#radio" />
-                        </svg>
-
-                        <span class="registration-statusСhoice_text">Кошки</span>
-                    </div>
-                </div>
-
-                <input class="loginRegistration-input" placeholder="Немецкая овчарка">
-
-                <input class="loginRegistration-input" placeholder="Название питомника">
-
-                <p class="registration-label">Загрузите фото профиля</p>
-
-                <svg class="registration-account_img">
-                    <use href="#account" />
-                </svg>
-
-                <a class="registration-label registration-selectPhoto" href="#">Выбрать</a>
-
-                <button class="loginRegistration-button marginBottom30">Зарегистрироваться</button>
-
-                <div class="registration-terms">
-                    <input id="loginRegistration-checkbox registration-checkbox" type="checkbox" class="login-checkbox">
-
-                    <p class="registration-paragraph">
-                        Нажимая кнопку «Зарегистрироваться», вы создаете учетную запись BREED SHOW и, следовательно,
-                        соглашаетесь с Условиями использования и Политикой конфиденциальности, а также даете свое
-                        согласие на обработку Персональных данных
-                    </p>
-                </div>
 
 
             </div>
 
-
+            <div class="loginRegistration-regContainer">
+                <span class="login-text">Уже есть учетная запись?</span>
+                <a class="loginRegistration-link" href="#">Войти</a>
+            </div>
 
 
 
@@ -248,5 +262,6 @@
 
 
 </body>
+<script src="./loginRegistrationScript.js"></script>
 
 </html>

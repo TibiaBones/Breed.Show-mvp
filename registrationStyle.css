@@ -43,23 +43,43 @@ ul {
 .registration-statusСhoice_flexContainer{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .registration-radio_img{
-    width: 21px;
-    height: 20px;
-    cursor: pointer;
+    width: 25px;
+    height: 24px;
 }
+
+#buttonOn1{
+    display: block;
+}
+
+#buttonOff1{
+    display: none;
+}
+
+#buttonOff2{
+    display: block;
+}
+
+#buttonOn2{
+    display: none;
+}
+
+
 
 .registration-statusСhoice_text{
     font-weight: 700;
     margin-left: 10px;
 }
 
-.registration-radioChecked_img{
-    width: 25px;
-    height: 24px;
-    cursor: pointer; 
+
+.registration-breederFlexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .registration-petСhoice {
