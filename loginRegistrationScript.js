@@ -2,7 +2,7 @@ let statusIndex = 1;
 const breedBlockId = document.getElementById("breederContainer");
 const buttons = document.querySelectorAll(".radio-statusСhoiceButton_img");
 
-function breederStatus(){
+function breederStatus (){
     if(statusIndex == 2){
         statusIndex = 1;
         breedBlockId.style.display = "flex";
