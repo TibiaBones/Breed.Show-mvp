@@ -1,3 +1,7 @@
+ul{
+    list-style-image: url(images/listMarker.svg);
+}
+
 .registration-label {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
