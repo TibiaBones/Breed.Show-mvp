@@ -1,5 +1,5 @@
 ul{
-    list-style-image: url(images/listMarker.svg);
+    list-style-image: url(images/listMarker.svg); 
 }
 
 .registration-label {
@@ -14,6 +14,32 @@ ul{
 
 .height100 {
     height: 100%;
+}
+
+.height530{
+    height: 530px;
+}
+
+.scrollBar{
+    overflow-y: scroll;
+}
+
+.loginRegistration-secContainer::-webkit-scrollbar{
+    width: 40px;
+}
+
+.loginRegistration-secContainer::-webkit-scrollbar-track{
+    background: #222831;
+    border-radius: 16px;
+}
+
+.loginRegistration-secContainer::-webkit-scrollbar-thumb{
+    /* width: 8px; */
+    /* height: 100px; */
+    background: #A0A3BD;
+    /* background: url(images/scrollBar.svg); */
+    border-radius: 16px;
+    border: 16px solid #222831;
 }
 
 .marginBottom0 {
