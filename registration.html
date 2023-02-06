@@ -85,7 +85,9 @@
         </symbol>
 
         <symbol id="radio" viewBox="0 0 25 24">
-            <path d="M12.5 2C6.98 2 2.5 6.48 2.5 12C2.5 17.52 6.98 22 12.5 22C18.02 22 22.5 17.52 22.5 12C22.5 6.48 18.02 2 12.5 2ZM12.5 20C8.08 20 4.5 16.42 4.5 12C4.5 7.58 8.08 4 12.5 4C16.92 4 20.5 7.58 20.5 12C20.5 16.42 16.92 20 12.5 20Z" fill="white"/>
+            <path
+                d="M12.5 2C6.98 2 2.5 6.48 2.5 12C2.5 17.52 6.98 22 12.5 22C18.02 22 22.5 17.52 22.5 12C22.5 6.48 18.02 2 12.5 2ZM12.5 20C8.08 20 4.5 16.42 4.5 12C4.5 7.58 8.08 4 12.5 4C16.92 4 20.5 7.58 20.5 12C20.5 16.42 16.92 20 12.5 20Z"
+                fill="white" />
         </symbol>
 
         <symbol id="radioChecked" viewBox="0 0 25 24">
@@ -101,17 +103,21 @@
     <div class="loginRegistration-background">
         <div class="loginRegistration-topContainer">
             <div class="loginRegistration-topContainer_left">
-                <svg class="loginRegistration-back_img">
-                    <use href="#back" />
-                </svg>
+                <a class="loginRegistration-topContainer_linkBack" href="profile.html">
+                    <svg class="loginRegistration-back_img">
+                        <use href="#back" />
+                    </svg>
+                </a>
 
-                <svg class="loginRegistration-logoBSh_img">
-                    <use href="#logoBSh" />
-                </svg>
+                <div class="flexAICenter">
+                    <svg class="loginRegistration-logoBSh_img">
+                        <use href="#logoBSh" />
+                    </svg>
 
-                <svg class="loginRegistration-wordmarkWhite_img">
-                    <use href="#wordmark" />
-                </svg>
+                    <svg class="loginRegistration-wordmarkWhite_img">
+                        <use href="#wordmark" />
+                    </svg>
+                </div>
             </div>
 
             <p class="loginRegistration-topContainer_text">Breed is a lifestyle</p>
@@ -209,26 +215,25 @@
                 </div>
 
 
-                    <p class="registration-label">Загрузите фото профиля</p>
+                <p class="registration-label">Загрузите фото профиля</p>
 
-                    <svg class="registration-account_img">
-                        <use href="#account" />
-                    </svg>
+                <svg class="registration-account_img">
+                    <use href="#account" />
+                </svg>
 
-                    <a class="registration-label registration-selectPhoto" href="#">Выбрать</a>
+                <a class="registration-label registration-selectPhoto" href="#">Выбрать</a>
 
-                    <button class="loginRegistration-button marginBottom30">Зарегистрироваться</button>
+                <button class="loginRegistration-button marginBottom30">Зарегистрироваться</button>
 
-                    <div class="registration-terms">
-                        <input id="loginRegistration-checkbox registration-checkbox" type="checkbox"
-                            class="login-checkbox">
+                <div class="registration-terms">
+                    <input id="loginRegistration-checkbox registration-checkbox" type="checkbox" class="login-checkbox">
 
-                        <p class="registration-paragraph">
-                            Нажимая кнопку «Зарегистрироваться», вы создаете учетную запись BREED SHOW и, следовательно,
-                            соглашаетесь с Условиями использования и Политикой конфиденциальности, а также даете свое
-                            согласие на обработку Персональных данных
-                        </p>
-                    </div>
+                    <p class="registration-paragraph">
+                        Нажимая кнопку «Зарегистрироваться», вы создаете учетную запись BREED SHOW и, следовательно,
+                        соглашаетесь с Условиями использования и Политикой конфиденциальности, а также даете свое
+                        согласие на обработку Персональных данных
+                    </p>
+                </div>
 
 
 

@@ -6,6 +6,11 @@ body {
     color: #EFEFEF;
 }
 
+.flexAICenter{
+    display: flex;
+    align-items: center;
+}
+
 .loginRegistration-background {
     height: 100vh;
     width: 100%;
@@ -20,22 +25,27 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 25px 0 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
 }
 
 .loginRegistration-topContainer_left {
+    width: 190px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left: 30px;
+}
+
+.loginRegistration-topContainer_linkBack{
+    display: flex;
+    align-items: center;
 }
 
 .loginRegistration-back_img {
     height: 30px;
     width: 30px;
-    margin-right: 25px;
     cursor: pointer;
 }
 
