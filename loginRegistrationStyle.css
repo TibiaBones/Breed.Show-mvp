@@ -12,7 +12,6 @@ body {
 }
 
 .loginRegistration-background {
-    height: 100vh;
     width: 100%;
     background: linear-gradient(45deg, #FFA3FD, #7433FF);
     display: flex;
@@ -80,6 +79,7 @@ body {
 }
 
 .loginRegistration-secContainer {
+    margin-top: 25vh;
     width: 600px;
     background-color: #222831;
     border-radius: 16px;

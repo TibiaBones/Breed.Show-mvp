@@ -2,6 +2,10 @@ ul{
     list-style-image: url(images/listMarker.svg); 
 }
 
+.marginBottom25vh{
+    margin-bottom: 25vh;
+}
+
 .registration-label {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -14,14 +18,6 @@ ul{
 
 .height100 {
     height: 100%;
-}
-
-.height530{
-    height: 530px;
-}
-
-.scrollBar{
-    overflow-y: scroll;
 }
 
 .loginRegistration-secContainer::-webkit-scrollbar{
