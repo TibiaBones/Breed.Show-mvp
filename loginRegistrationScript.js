@@ -17,10 +17,20 @@ function userStatus (){
         buttons.forEach(i => i.classList.toggle('off'))
     };
 };
-
 // переписать, объединить функции в одну, применить addEventListener вместо oncklick
 
 
 
+
+
+
+function showBlock(n){
+    let tabs = document.querySelectorAll('.tabSections');
+    let block = document.getElementById(n);
+
+    tabs.forEach(i => i.style.display = "none");
+
+    block.style.display = "flex";
+};
 
 

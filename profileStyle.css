@@ -34,7 +34,7 @@ body {
     align-items: center;
 }
 
-.displayNone{
+.displayNone {
     display: none;
 }
 
@@ -262,6 +262,40 @@ body {
     align-items: flex-start;
 }
 
+.tabSections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tabShop {
+    display: none;
+}
+
+.tabNursery {
+    display: none;
+}
+
+.tabPromotions {
+    display: none;
+}
+
+.tabPublications {
+    display: none;
+}
+
+.tabInfo {
+    display: flex;
+}
+
+/* .blockOff{
+    display: none;
+}
+
+.blockOn{
+    display: flex;
+} */
+
 .accountContent-infoPawsgramm {
     display: flex;
     flex-direction: column;
@@ -452,19 +486,19 @@ body {
     color: #363C38;
 }
 
-.accountContent-post_likeComments{
+.accountContent-post_likeComments {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.accountContent-post_LCFlexElement{
+.accountContent-post_LCFlexElement {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.marginLeft30{
+.marginLeft30 {
     margin-left: 30px;
 }
 
@@ -484,9 +518,3 @@ body {
     color: #363C38;
     margin-left: 10px;
 }
-
-
-
-
-
-

@@ -211,7 +211,7 @@
         <div class="delimiter accountHeader-delimiter"></div>
 
         <div class="accountHeader-mainMenu">
-            <div class="accountHeader-mainMenu_flexContainer">
+            <div class="accountHeader-mainMenu_flexContainer" onclick="showBlock('Shop')">
                 <svg class="shopIco_img">
                     <use href="#shopIco" />
                 </svg>
@@ -219,7 +219,7 @@
                 <span class="accountHeader-mainMenu_text">Мой магазин</span>
             </div>
 
-            <div class="accountHeader-mainMenu_flexContainer">
+            <div class="accountHeader-mainMenu_flexContainer" onclick="showBlock('Nursery')">
                 <svg class="nursery_img">
                     <use href="#nursery" />
                 </svg>
@@ -227,7 +227,7 @@
                 <span class="accountHeader-mainMenu_text">Мой питомник</span>
             </div>
 
-            <div class="accountHeader-mainMenu_flexContainer">
+            <div class="accountHeader-mainMenu_flexContainer" onclick="showBlock('Promotions')">
                 <svg class="megaphone_img">
                     <use href="#megaphone" />
                 </svg>
@@ -235,7 +235,7 @@
                 <span class="accountHeader-mainMenu_text">Промоакции</span>
             </div>
 
-            <div class="accountHeader-mainMenu_flexContainer">
+            <div class="accountHeader-mainMenu_flexContainer" onclick="showBlock('Publications')">
                 <svg class="publications_img">
                     <use href="#publications" />
                 </svg>
@@ -243,7 +243,7 @@
                 <span class="accountHeader-mainMenu_text">Публикации</span>
             </div>
 
-            <div class="accountHeader-mainMenu_flexContainer">
+            <div class="accountHeader-mainMenu_flexContainer" onclick="showBlock('Info')">
                 <svg class="info_img">
                     <use href="#info" />
                 </svg>
@@ -262,157 +262,173 @@
     </section>
 
     <section class="accountContent-background">
-        <div class="accountContent-infoPawsgramm flex-columnJCCenterAIFlexStart">
-            <div class="accountContent-info profile_shadow">
-                <span class="accountContent-title">Краткая информация</span>
-                <div class="accountContent-info_table">
-                    <p class="accountContent-secTitle">Сайт breed.show предназначен специально для заводчиков, та?</p>
+        <div class="tabSections tabShop" id="Shop"><h1>пустая страничка "мой магазин"</h1></div>
 
+        <div class="tabSections tabNursery" id="Nursery"><h1>пустая страничка "мой питомник"</h1></div>
 
-                    <div class="accountContent-info_delimiter"></div>
+        <div class="tabSections tabPromotions" id="Promotions"><h1>пустая страничка "промоакции"</h1></div>
 
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Представитель:</p>
-                        <p class="accountContent-info_textRight">Евгений Федоров</p>
-                    </div>
+        <div class="tabSections tabPublications" id="Publications"><h1>пустая страничка "публикации"</h1></div>
 
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Породы:</p>
-                        <p class="accountContent-info_textRight">Ши-тцу</p>
-                    </div>
-
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Питомник:</p>
-                        <p class="accountContent-info_textRight">Golden StapWay</p>
-                    </div>
-
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Страна:</p>
-                        <p class="accountContent-info_textRight">Беларусь</p>
-                    </div>
-
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Город:</p>
-                        <p class="accountContent-info_textRight">Минск</p>
-                    </div>
-
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Статус:</p>
-                        <p class="accountContent-info_textRight">Заводчик</p>
-                    </div>
-
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Работа:</p>
-                        <p class="accountContent-info_textRight">Программист</p>
-                    </div>
-
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Дата рождения:</p>
-                        <p class="accountContent-info_textRight">19 декабря 2000 г.</p>
-                    </div>
-                    <div class="accountContent-info_delimiter"></div>
-
-                    <div class="accountContent-info_textContainer">
-                        <p class="accountContent-info_textLeft">Телефон:</p>
-                        <p class="accountContent-info_textRight">+375291189233</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="accountContent-pawsgramm">
-                <div class="accountContent-pawsgramm_flexContainer">
-                    <span class="accountContent-pawsgramm_title">Павсграм</span>
-                    <span class="accountContent-pawsgramm_allPhotos">Все фото</span>
-                </div>
-
-                <div class="accountContent-pawsgramm_photos">
-                    <img class="pawsgramm-img" src="images/Rectangle 10.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 11.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 12.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 13.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 14.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 15.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 16.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 17.png">
-                    <img class="pawsgramm-img" src="images/Rectangle 18.png">
-                </div>
-            </div>
-        </div>
-
-        <div class="flex-columnJCCenterAIFlexStart">
-            <div class="accountContent-post profile_shadow">
-                <div class="accountContent-post_accountNameBox">
-                    <svg class="account-post_img">
-                        <use href="#account" />
-                    </svg>
-
-                    <div class="accountContent-post_nameDate">
-                        <a class="accountContent-post_accName" href="profile.html">Федоров Евгений</a>
-                        <p class="accountContent-post_Date">
-                            <span>5</span>
-                            <span>января</span>
-                            <span>2023</span>
-                            г.
+        <div class="tabSections tabInfo" id="Info" >
+            <div class="accountContent-infoPawsgramm flex-columnJCCenterAIFlexStart">
+                <div class="accountContent-info profile_shadow">
+                    <span class="accountContent-title">Краткая информация</span>
+                    <div class="accountContent-info_table">
+                        <p class="accountContent-secTitle">Сайт breed.show предназначен специально для заводчиков, та?
                         </p>
+
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Представитель:</p>
+                            <p class="accountContent-info_textRight">Евгений Федоров</p>
+                        </div>
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Породы:</p>
+                            <p class="accountContent-info_textRight">Ши-тцу</p>
+                        </div>
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Питомник:</p>
+                            <p class="accountContent-info_textRight">Golden StapWay</p>
+                        </div>
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Страна:</p>
+                            <p class="accountContent-info_textRight">Беларусь</p>
+                        </div>
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Город:</p>
+                            <p class="accountContent-info_textRight">Минск</p>
+                        </div>
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Статус:</p>
+                            <p class="accountContent-info_textRight">Заводчик</p>
+                        </div>
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Работа:</p>
+                            <p class="accountContent-info_textRight">Программист</p>
+                        </div>
+
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Дата рождения:</p>
+                            <p class="accountContent-info_textRight">19 декабря 2000 г.</p>
+                        </div>
+                        <div class="accountContent-info_delimiter"></div>
+
+                        <div class="accountContent-info_textContainer">
+                            <p class="accountContent-info_textLeft">Телефон:</p>
+                            <p class="accountContent-info_textRight">+375291189233</p>
+                        </div>
                     </div>
+
                 </div>
 
+                <div class="accountContent-pawsgramm">
+                    <div class="accountContent-pawsgramm_flexContainer">
+                        <span class="accountContent-pawsgramm_title">Павсграм</span>
+                        <span class="accountContent-pawsgramm_allPhotos">Все фото</span>
+                    </div>
+
+                    <div class="accountContent-pawsgramm_photos">
+                        <img class="pawsgramm-img" src="images/Rectangle 10.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 11.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 12.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 13.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 14.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 15.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 16.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 17.png">
+                        <img class="pawsgramm-img" src="images/Rectangle 18.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-columnJCCenterAIFlexStart">
+                <div class="accountContent-post profile_shadow">
+                    <div class="accountContent-post_accountNameBox">
+                        <svg class="account-post_img">
+                            <use href="#account" />
+                        </svg>
+
+                        <div class="accountContent-post_nameDate">
+                            <a class="accountContent-post_accName" href="profile.html">Федоров Евгений</a>
+                            <p class="accountContent-post_Date">
+                                <span>5</span>
+                                <span>января</span>
+                                <span>2023</span>
+                                г.
+                            </p>
+                        </div>
+                    </div>
 
 
-                <!-- предварительное отображение изображения
+
+                    <!-- предварительное отображение изображения
                 разобраться и добавить возможность добавлять несколько изображений с корректным отображением -->
-                <img class="accountContent-post_img" src="images/unsplash_Mv9hjnEUHR4.png">
+                    <img class="accountContent-post_img" src="images/unsplash_Mv9hjnEUHR4.png">
 
 
-                <!-- предварительный вид текста. 
+                    <!-- предварительный вид текста. 
                     разобраться и реализовать возможность разметки самим пользователем, 
                     ограничить предварительное отображение текста с возможностью "развернуть" его.-->
-                <p class="accountContent-post_text">
-                    ПАВСГРАМ на БРИД ШОУ Павсграм нужен для общения, развлечения и привлечения внимания. Человек
-                    одновременно с эстетическим удовольствием от просмотра, получает следующие возможности: Своего рода
-                    реклама, с помощью которой можно популяризировать свой Маркетплейс (Ваш магазин на Брид Шоу).
-                    Просмотр фото и видео контента иных пользователей. Это страница для обмена фотографиями и
-                    видеозаписями, развлекательный и познавательный контент из жизни питомников. В настоящее время на
-                    странице Павсграм представлена только основная часть – это лента активности (фото и видео), есть
-                    возможность ставить лайки и комментировать. В дальнейшем, будут добавлены опции: поиск (по хештэгам,
-                    аккаунты, места). Планируется лента «Новости».
-                </p>
+                    <p class="accountContent-post_text">
+                        ПАВСГРАМ на БРИД ШОУ Павсграм нужен для общения, развлечения и привлечения внимания. Человек
+                        одновременно с эстетическим удовольствием от просмотра, получает следующие возможности: Своего
+                        рода
+                        реклама, с помощью которой можно популяризировать свой Маркетплейс (Ваш магазин на Брид Шоу).
+                        Просмотр фото и видео контента иных пользователей. Это страница для обмена фотографиями и
+                        видеозаписями, развлекательный и познавательный контент из жизни питомников. В настоящее время
+                        на
+                        странице Павсграм представлена только основная часть – это лента активности (фото и видео), есть
+                        возможность ставить лайки и комментировать. В дальнейшем, будут добавлены опции: поиск (по
+                        хештэгам,
+                        аккаунты, места). Планируется лента «Новости».
+                    </p>
 
-                <div class="accountContent-post_likeComments">
-                    <div class="accountContent-post_LCFlexElement">
-                        <svg class="like_img">
-                            <use href="#like" />
-                        </svg>
-                        <p class="likescommentsQuantity">12345</p>
-                    </div>
+                    <div class="accountContent-post_likeComments">
+                        <div class="accountContent-post_LCFlexElement">
+                            <svg class="like_img">
+                                <use href="#like" />
+                            </svg>
+                            <p class="likescommentsQuantity">12345</p>
+                        </div>
 
-                    <div class="accountContent-post_LCFlexElement marginLeft30">
-                        <svg class="comments_img">
-                            <use href="#comments" />
-                        </svg>
-                        <p class="likescommentsQuantity">345</p>
+                        <div class="accountContent-post_LCFlexElement marginLeft30">
+                            <svg class="comments_img">
+                                <use href="#comments" />
+                            </svg>
+                            <p class="likescommentsQuantity">345</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
+
 
     </section>
 </body>
-
+<script src="./loginRegistrationScript.js"></script>
 </html>
