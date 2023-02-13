@@ -6,3 +6,7 @@ function showBlock(n){
 
     block.style.display = "flex";
 };
+
+function showMenu(){
+    document.getElementById("modalMenu").classList.toggle("displayFlex");
+};

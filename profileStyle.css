@@ -8,12 +8,6 @@ body {
     font-weight: 400;
 }
 
-svg path {
-    stroke: inherit;
-    stroke-width: inherit;
-    fill: inherit;
-}
-
 .header-background {
     position: fixed;
     top: 0;
@@ -66,7 +60,6 @@ svg path {
 }
 
 .header-buttonLogin {
-    /* display: none; */
     width: 190px;
     height: 50px;
     background-color: #3772FF;
@@ -120,7 +113,33 @@ svg path {
     margin: 0 30px 0 10px;
 }
 
+.modalMenu-container {
+    display: none;
+    align-items: flex-start;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
 
+.displayFlex{
+    display: flex;
+}
+
+.modalMenu-background {
+    width: 70vw;
+    height: 100vh;
+    background-color: #222831;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.modalMenu-menu {
+    width: 30vw;
+    background-color: #F7F7FC;
+    min-height: 100vh;
+    /* opacity: 1; */
+}
 
 .panel-background {
     height: 350px;
@@ -254,10 +273,22 @@ svg path {
     transition: 200ms;
 }
 
+.accountHeader-mainMenu_svg path {
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: inherit;
+}
+
 .accountHeader-mainMenu_flexContainer:hover svg {
     fill: #3772FF;
     transition: 200ms;
+
+
 }
+
+/* добавить через :after подчеркивание всего блока при наведении, 
+для этого придется изменить высоту всего меню */
+
 
 
 
