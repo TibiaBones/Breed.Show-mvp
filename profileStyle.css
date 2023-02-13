@@ -8,6 +8,12 @@ body {
     font-weight: 400;
 }
 
+svg path {
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: inherit;
+}
+
 .header-background {
     position: fixed;
     top: 0;
@@ -194,7 +200,6 @@ body {
     align-items: center;
     padding: 15px 0;
     margin: 0 155px;
-
 }
 
 .accountHeader-mainMenu_flexContainer {
@@ -202,6 +207,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
 
 .shopIco_img {
     height: 24px;
@@ -241,6 +248,19 @@ body {
     margin-left: 15px;
     cursor: pointer;
 }
+
+.accountHeader-mainMenu_flexContainer:hover .accountHeader-mainMenu_text {
+    color: #3772FF;
+    transition: 200ms;
+}
+
+.accountHeader-mainMenu_flexContainer:hover svg {
+    fill: #3772FF;
+    transition: 200ms;
+}
+
+
+
 
 .accountHeader-buttonMenu_circle {
     height: 36px;
