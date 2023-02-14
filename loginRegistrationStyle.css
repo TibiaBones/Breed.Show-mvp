@@ -16,7 +16,7 @@ body {
     background: linear-gradient(45deg, #FFA3FD, #7433FF);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .loginRegistration-topContainer {
@@ -79,7 +79,7 @@ body {
 }
 
 .loginRegistration-secContainer {
-    margin-top: 25vh;
+    margin-top: 90px;
     width: 600px;
     background-color: #222831;
     border-radius: 16px;
