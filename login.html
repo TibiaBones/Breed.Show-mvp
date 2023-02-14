@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
-    <link href="./loginStyle.css" rel="stylesheet">
     <link href="./loginRegistrationStyle.css" rel="stylesheet">
+    <link href="./loginStyle.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -120,6 +120,12 @@
                 d="M42.8912 36.4685C43.7307 35.629 43.8507 34.4296 43.131 33.2302C42.5314 32.2707 41.4519 31.791 40.2525 32.0309C39.7728 32.1508 39.293 32.3907 38.8133 32.7505C35.0952 35.2692 30.0578 35.1492 26.3398 32.6306C26.0999 32.5106 25.86 32.3907 25.6201 32.2707C24.3008 31.671 22.9815 31.9109 22.2619 33.1103C21.4223 34.3097 21.5423 35.629 22.6217 36.7084C22.8616 36.9483 23.1015 37.0683 23.2214 37.3081L23.3413 37.4281C25.0205 38.7474 27.0594 39.5869 29.698 39.9468L28.1388 41.5059C26.8195 42.8253 25.3803 44.2645 24.061 45.5838C23.7012 45.9436 23.2214 46.5433 23.2214 47.3829C23.2214 48.4623 23.8211 49.5418 24.9005 50.0215C25.2603 50.2614 25.6201 50.2614 25.98 50.2614C26.5796 50.2614 27.2993 50.0215 27.779 49.4218C29.5781 47.6227 31.0174 46.1835 32.4566 44.7443C32.5765 44.6243 32.5765 44.6243 32.5765 44.6243C32.5765 44.6243 32.6965 44.6243 32.6965 44.7443C33.656 45.8237 34.7354 46.7832 35.6949 47.8626C36.1747 48.3424 36.6544 48.8221 37.1342 49.3019C37.7339 49.9016 38.2136 50.1414 38.9332 50.1414C40.0127 50.2614 41.212 49.5417 41.6918 48.4623C42.1715 47.5028 41.9317 46.3034 41.0921 45.5838C39.8927 44.3844 38.6933 43.0651 37.374 41.8657L35.3351 39.8268C36.4145 39.7069 37.6139 39.467 38.6934 38.9872C40.4924 38.3876 41.8117 37.548 42.8912 36.4685Z"
                 fill="white" />
         </symbol>
+
+        <symbol id="exclamation" viewBox="0 0 4 12">
+            <path
+                d="M2 8C2.26522 8 2.51957 7.89464 2.70711 7.70711C2.89464 7.51957 3 7.26522 3 7V1C3 0.734784 2.89464 0.48043 2.70711 0.292893C2.51957 0.105357 2.26522 0 2 0C1.73478 0 1.48043 0.105357 1.29289 0.292893C1.10536 0.48043 1 0.734784 1 1V7C1 7.26522 1.10536 7.51957 1.29289 7.70711C1.48043 7.89464 1.73478 8 2 8ZM2 12C2.24723 12 2.4889 11.9267 2.69446 11.7893C2.90002 11.652 3.06024 11.4568 3.15485 11.2284C3.24946 10.9999 3.27421 10.7486 3.22598 10.5061C3.17775 10.2637 3.0587 10.0409 2.88388 9.86612C2.70907 9.6913 2.48634 9.57225 2.24386 9.52402C2.00139 9.47579 1.75005 9.50054 1.52165 9.59515C1.29324 9.68976 1.09801 9.84997 0.960663 10.0555C0.823311 10.2611 0.75 10.5028 0.75 10.75C0.75 11.0815 0.881696 11.3995 1.11612 11.6339C1.35054 11.8683 1.66848 12 2 12Z"
+                fill="#ED2E7E" />
+        </symbol>
     </svg>
 
 
@@ -152,9 +158,17 @@
 
                 <h4 class="loginRegistration-title">Вход</h4>
 
-                <input class="loginRegistration-input" placeholder="Электронная почта">
+                <input class="loginRegistration-input login-input" placeholder="Электронная почта" onclick="deleteMessage()">
 
-                <input class="loginRegistration-input" placeholder="Пароль">
+                <input class="loginRegistration-input login-input margin0" placeholder="Пароль" onclick="deleteMessage()">
+
+                <div class="login-error_massage" id="loginErrorMassage">
+                    <svg class="login-error_svg">
+                        <use href="#exclamation" />
+                    </svg>
+                    <p class="login-error_text">Неверная эл. почта или пароль</p>
+                </div>
+
 
                 <div class="login_checkboxForgottenPassword">
                     <div class="login-checkbox_container">
@@ -166,7 +180,7 @@
                     <a class="login_forgottenPassword" href="#">Забыли пароль?</a>
                 </div>
 
-                <button class="loginRegistration-button">Войти</button>
+                <button class="loginRegistration-button" id="loginButton">Войти</button>
 
                 <span class="login-massangersLabel">Или войдите с помощью:</span>
 
@@ -200,5 +214,6 @@
 
 
 </body>
+<script src="./loginRegistrationScript.js"></script>
 
 </html>

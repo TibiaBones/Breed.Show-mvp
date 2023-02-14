@@ -10,3 +10,4 @@ function showBlock(n){
 function showMenu(){
     document.getElementById("modalMenu").classList.toggle("displayFlex");
 };
+
