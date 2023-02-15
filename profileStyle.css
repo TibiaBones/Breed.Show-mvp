@@ -157,6 +157,15 @@ body {
     /* opacity: 1; */
 }
 
+.modalMenu-closeLogoWordmark{
+    width: 200px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
 .panel-background {
     height: 350px;
     background: linear-gradient(45deg, #50DDC3, #624AF2);
