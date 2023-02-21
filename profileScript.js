@@ -11,3 +11,6 @@ function showMenu(){
     document.getElementById("modalMenu").classList.toggle("displayFlex");
 };
 
+function showPopUpMenu(){
+    document.getElementById("popUpMenu").classList.toggle("displayFlex");
+};

@@ -137,9 +137,7 @@ body {
     left: 0;
 }
 
-.displayFlex {
-    display: flex;
-}
+
 
 .modalMenu-background {
     width: 100%;
@@ -157,7 +155,7 @@ body {
     /* opacity: 1; */
 }
 
-.modalMenu-closeLogoWordmark{
+.modalMenu-closeLogoWordmark {
     width: 200px;
     margin-left: 35px;
     display: flex;
@@ -327,6 +325,21 @@ body {
     border-radius: 18px;
     background-color: #EFF0F6;
     cursor: pointer;
+}
+
+.accountHeader-popUpmenu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 210px;
+    width: 290px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    /* bottom: 110px; */
+    top: 625px;
+    cursor: default;
 }
 
 .accountContent-background {
@@ -593,4 +606,21 @@ body {
     font-size: 16px;
     color: #363C38;
     margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.displayFlex {
+    display: flex;
 }
