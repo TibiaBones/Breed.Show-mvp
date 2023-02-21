@@ -332,6 +332,7 @@ body {
     display: none;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
     height: 210px;
     width: 290px;
     background-color: #FCFCFC;
@@ -340,7 +341,48 @@ body {
     /* bottom: 110px; */
     top: 625px;
     cursor: default;
+    padding: 20px;
 }
+
+.accountHeader-popUpmenu_listContainer {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.accountHeader-popUpmenu_text {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #363C38;
+}
+
+.accountHeader-popUpmenu_ico{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+/* 
+.eye_ico{
+    width: 24px;
+    height: 24px;
+}
+
+.searchSmall_ico{
+    width: 24px;
+    height: 24px;
+}
+
+.gear_ico{
+    width: 24px;
+    height: 24px;
+}
+
+.component_ico{
+    width: 24px;
+    height: 24px;
+} */
 
 .accountContent-background {
     padding: 20px 30px 30px 30px;
