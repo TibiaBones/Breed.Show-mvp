@@ -149,10 +149,9 @@ body {
 
 .modalMenu-menu {
     width: 320px;
-    ;
     background-color: #F7F7FC;
     min-height: 100vh;
-    /* opacity: 1; */
+    padding: 0 20px 0 30px;
 }
 
 .modalMenu-closeLogoWordmark {
@@ -162,6 +161,35 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
+}
+
+.modalMenu-linksBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 55px;
+}
+
+.modalMenu-linkElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modalMenu-links_ico{
+    width: 30px;
+    height: 30px;
+}
+
+.modalMenu-link {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #363C38;
+    text-decoration: none;
+    margin-left: 15px;
 }
 
 .panel-background {
@@ -358,11 +386,12 @@ body {
     color: #363C38;
 }
 
-.accountHeader-popUpmenu_ico{
+.accountHeader-popUpmenu_ico {
     width: 24px;
     height: 24px;
     margin-right: 10px;
 }
+
 /* 
 .eye_ico{
     width: 24px;
